@@ -2,6 +2,7 @@
     width: 24px;
     height: 24px;
     background-image: url("../img/menu.png.png");
+    background-repeat: no-repeat;
     display: inline-block
 }
 
@@ -10,4 +11,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+   padding: 1em;
 }
